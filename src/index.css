@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.card{ 
+ 
+    background: linear-gradient(to right, rgb(6, 194, 84),rgba(88, 230, 222, 0.671));
+    width: 60%;
+    height: 400px;
+    border-radius: 10px;
+    border: 3px solid black!important;
+    padding: 5px!important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Card shadow */
+    position: relative;
+  
+}
+/* .btns {
+
+  color: #fff;
+  padding: 8px 16px; 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 50px;
+  position: absolute;
+ 
+} */
+.btns {
+     position: absolute;
+}
+.comment{
+  padding: 10px;
+  margin-right: 35px;
+}
+.delete{
+  padding:10px;
+  margin-left:45px;
+  background: linear-gradient(to right, rgb(224, 23, 23),rgba(255, 0, 0, 0.671));
+}
+
+.posts{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  
+}
+
