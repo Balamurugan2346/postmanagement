@@ -53,4 +53,77 @@ code {
   grid-template-columns: repeat(3, 1fr); 
   
 }
-
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Add your CSS rules here */
+  body {
+    font-size: 16px;
+  }
+  .posts{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    
+  }
+  main{
+    margin-left: 30px;  }
+    .btns {
+      position: absolute;
+ }
+ .comment{
+   padding: 10px;
+   margin-right: 35px;
+ }
+ .btns{
+  display: flex;
+ }
+ .delete{
+   padding:10px;
+   /* margin-left:45px; */
+   margin-left: -5px;
+   background: linear-gradient(to right, rgb(224, 23, 23),rgba(255, 0, 0, 0.671));
+ }
+}
+@media screen and (max-width: 767px) {
+  /* Add your CSS rules here */
+  body {
+    font-size: 14px;
+  }
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  /* Add more styles as needed */
+  .posts{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); 
+    
+  }
+  main{
+    margin-left: 70px;
+  }
+  .btns{
+    display: flex;
+   }
+   .delete{
+    padding:10px;
+    /* margin-left:45px; */
+    margin-left: -5px;
+    background: linear-gradient(to right, rgb(224, 23, 23),rgba(255, 0, 0, 0.671));
+  }
+  @media screen and (width: 375px) and (height: 667px)  {
+    /* Add your CSS rules here */
+    body {
+      font-size: 12px;
+    }
+    .container {
+      width: 95%;
+      margin: 0 auto;
+    }
+    .delete{
+      padding:10px;
+      /* margin-left:45px; */
+      margin-left: -20px;
+      background: linear-gradient(to right, rgb(187, 30, 30),rgba(255, 0, 0, 0.671));
+    }
+    /* Add more styles as needed */
+  }
+}
